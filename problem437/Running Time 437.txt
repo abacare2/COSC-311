@@ -1,0 +1,2 @@
+// We only check half the tree, since the other half will be greater than k2, which binds the running time to log n. We repeat the loop n times, so the entire method is bound by 
+O(n log n). 
